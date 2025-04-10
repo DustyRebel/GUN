@@ -1,0 +1,85 @@
+html, body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	font-family: Tablo, Tahoma, serif;
+}
+
+@font-face {
+    font-family: Tablo;
+    src: url('Tablon-Medium.eot');
+    src: url('Tablon-Medium.eot?#iefix') format('embedded-opentype'),
+        url('Tablon-Medium.woff2') format('woff2'),
+        url('Tablon-Medium.woff') format('woff'),
+        url('Tablon-Medium.svg#Tablon-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+.galerist {
+	background: rgb(156,116,226);
+	color: white;
+	height: 50%;
+	font-size: 4rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.main {
+	background: rgb(20, 25, 30);
+	color: white;
+	font-size: 1rem;
+}
+
+.galerist input[type="text"],
+.galerist input[type="password"]{
+ border: 1px solid #ccc;
+    border-radius: 3px;
+	font-family: Tablo, Tahoma, serif;
+}
+
+.galerist button {
+width: 50%;
+    padding: 10px;
+    background-color: #351669;
+    font-size: 20px;
+    color: green;
+    font-family: Tablo, Tahoma, serif;
+    border: none;
+    color: #ffffff;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.visitor {
+    background: rgb(226,142,116);
+    color: white;
+    height: 50%;
+    font-size: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3rem; /*                                                                  */
+}
+.visitor a {
+	color: white;
+	display: block; /*                                       */
+}
+
+.center {
+	text-align: center;
+	justify-content: center;
+}
+
+.center a {
+	display: block; /*                                       */
+}
+
+.center p {
+	display: block; /*                                 */
+}
+
+  

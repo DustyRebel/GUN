@@ -1,0 +1,78 @@
+html, body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+    background: rgb(20, 25, 30);
+	font-family: Tablo, Tahoma, serif;
+}
+
+@font-face {
+    font-family: Tablo;
+    src: url('Tablon-Medium.eot');
+    src: url('Tablon-Medium.eot?#iefix') format('embedded-opentype'),
+        url('Tablon-Medium.woff2') format('woff2'),
+        url('Tablon-Medium.woff') format('woff'),
+        url('Tablon-Medium.svg#Tablon-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+.spacer {
+    height: 120px; 
+}
+
+.spacertwo {
+    height: 120px; 
+}
+
+.admin-controls {
+    float: left; /* Выравнивание блока по левому краю */
+    width: 300px; /* Ширина блока */
+    margin-right: 20px; /* Отступ справа от блока */
+    background-color: rgba(255, 255, 255, 0.1); /* Контрастный фон */
+    border: 2px solid white; /* Рамочка */
+    padding: 20px; /* Внутренний отступ содержимого блока */
+    box-sizing: border-box; /* Учитываем ширину рамки внутри блока */
+}
+
+.main {
+	background: rgb(20, 25, 30);
+	color: white;
+	font-size: 20px;
+
+}
+
+
+
+.main table {
+    width: auto;
+    height: auto;
+    border-collapse: separate;
+    border-spacing: 25px 1px; /* Установка расстояния между ячейками */
+  }
+
+  .main table td {
+    text-align: center;
+  }
+
+  .main table a{
+    color: rgb(115, 238, 240);
+
+}
+
+
+  .page-info {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.1); /* Контрастный фон */
+    border: 2px solid white; /* Рамочка */
+    box-sizing: border-box;
+    color: white;
+    text-align: center;
+}
+.page-info a{
+    color: rgb(115, 238, 240);
+}
